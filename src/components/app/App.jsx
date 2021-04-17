@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from './nav/nav';
 import './App.css';
 import Landing from './landing/landing';
+import Footer from './footer/footer';
 
 
 
@@ -13,6 +14,7 @@ class App extends React.Component {
             <div className="App" >
                 <Nav/>
                 <Landing/>
+                <Footer/>
             </div>
         );
     }
