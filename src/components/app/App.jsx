@@ -3,6 +3,7 @@ import Nav from './nav/nav';
 import './App.css';
 import Landing from './landing/landing';
 import Footer from './footer/footer';
+import ChallengeSection from './challengeSection/challengeSection';
 
 
 
@@ -14,6 +15,7 @@ class App extends React.Component {
             <div className="App" >
                 <Nav/>
                 <Landing/>
+                <ChallengeSection/>
                 <Footer/>
             </div>
         );
