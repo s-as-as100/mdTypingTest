@@ -6,8 +6,20 @@ import Footer from './footer/footer';
 import ChallengeSection from './challengeSection/challengeSection';
 
 
-
+const timerStarted = 30;
 class App extends React.Component {
+    state = {
+        selectedParagraph:"hi boring ",
+        timerStarted: false,
+        timeRemaining: timerStarted,
+        words: 0 ,
+        characters:0,
+        wpm:0
+
+
+          
+        
+    }
      
     render() { 
         return (  
@@ -15,7 +27,16 @@ class App extends React.Component {
             <div className="App" >
                 <Nav/>
                 <Landing/>
-                <ChallengeSection/>
+                <ChallengeSection
+                 selectedParagraph={this.state.selectedParagraph}
+                 timerStarted ={this.state.timerStarted}
+                 words= {this.state.words}
+                 characters= {this.state.characters}
+                 wpm ={this.state.wpm}
+                 timeRemaining={this.state.timeRemaining}
+                 
+                 
+                 />
                 <Footer/>
             </div>
         );
