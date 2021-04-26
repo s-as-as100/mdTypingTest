@@ -11,7 +11,7 @@ const Nav = () => {
            </div>
            <div className="nav-right" >
                <a 
-               target="_blank"
+               
                className="nav-github-link"
             //    ref="noreferrer"
                href="https://github.com/s-as-as100">

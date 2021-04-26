@@ -14,7 +14,7 @@ const TypingChallenge = ({selectedParagraph,timeRemaining,timeStarted}) => {
             <div className="textarea-container">
                 <div className="textarea-left">
                     <div className="textarea test-paragraph">
-                        {selectedParagraph}
+                     {selectedParagraph}
                     </div>
 
                 </div>

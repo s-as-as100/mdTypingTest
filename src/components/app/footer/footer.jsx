@@ -5,7 +5,7 @@ const Footer = () => {
     return ( 
         <div className="footer-container">
             <a href="https://www.linkedin.com/in/mohd-arif-a4bb2a194/"
-             target="_blank"
+             
              className="footer-link"
             >
                 my LinkedIn Profile 
