@@ -1,4 +1,5 @@
 import React from 'react'
+import TestLetter from '../testLetter/testLetter';
 import './typingChallenge.css';
 
 const TypingChallenge = ({selectedParagraph,timeRemaining,timeStarted}) => {
@@ -14,7 +15,15 @@ const TypingChallenge = ({selectedParagraph,timeRemaining,timeStarted}) => {
             <div className="textarea-container">
                 <div className="textarea-left">
                     <div className="textarea test-paragraph">
-                     {selectedParagraph}
+                     {/* {selectedParagraph} */}
+
+                     {
+                         testInfo.map((individualLetterInfo) => {
+                             return  (
+                                 <TestLetter individualLetterInfo={individualLetterInfo} />
+                             )
+                         })
+                     }
                     </div>
 
                 </div>
