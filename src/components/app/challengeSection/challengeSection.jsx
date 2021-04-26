@@ -2,7 +2,9 @@ import React from 'react'
 import TestContainer from '../testContainer/testContainer';
 import './challengeSection.css';
 
-const ChallengeSection = ({selectedParagraph,testInfo,words,characters,wpm,timeRemaining,timeStarted}) => {
+const ChallengeSection = ({selectedParagraph,
+  onInputChange,
+  testInfo,words,characters,wpm,timeRemaining,timeStarted}) => {
   
   console.log(selectedParagraph,wpm,timeRemaining,words,characters)
   
@@ -19,6 +21,7 @@ const ChallengeSection = ({selectedParagraph,testInfo,words,characters,wpm,timeR
        selectedparagraph={selectedParagraph}
        timeRemaining={timeRemaining}
        words={words}  characters={characters} wpm={wpm} 
+       onInputChange = {onInputChange}
        testInfo={testInfo} />
 
       </div>

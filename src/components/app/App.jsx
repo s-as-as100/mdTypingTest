@@ -15,12 +15,14 @@ class App extends React.Component {
         timeRemaining: timerStarted,
         words: 0 ,
         characters:0,
-        wpm:0
-
+        wpm:0,
+        onInputChange
+ 
 
           
         
-    }
+    };
+
      
 componentDidMount() {
     // fetch( apiURl)
@@ -41,6 +43,9 @@ componentDidMount() {
     this.setState({testInfo})
 }
 
+handleUserInput = (inputValue) => {
+
+}
 
 
     render() { 
@@ -61,6 +66,8 @@ componentDidMount() {
                  wpm ={this.state.wpm}
                  timeRemaining={this.state.timeRemaining}
                  testInfo={this.state.testInfo}
+
+                 onInputChange= {this.handleUserInput}
                  
                  
                  />
