@@ -1,34 +1,17 @@
 import React from 'react';
 import "./testLetter.css";
-
-const TestLetter = ( {inidividualLetterInfo}) => {
-
-    const {status }= inidividualLetterInfo.status
-
-    // let statusClass ;
-
-    const statusClass = {
-        correct : "test-letter-correct",
+const TestLetter = ({ individualLetterInfo }) => {
+    const statusClassName = {
+        correct: "test-letter-correct",
         incorrect: "test-letter-incorrect",
-        notAttempted: "test-letter-not-attempted"
-    }[status]
+        notAttempted: "test-letter-not-attempted",
+    }[individualLetterInfo.status];
 
-    // if(status === "correct") {
-    //     statusClass = "test-letter-correct"
+    return (
+        <span className={`test-letter ${statusClassName}`}>
+            {individualLetterInfo.testLetter}
+        </span>
+    );
+};
 
-    // } else if( status === "incorrect") {
-    //     statusClass="test-letter-incorrect"
-
-    // }  else {
-    //     statusClass ="test-letter-not-attempted"
-    // }
-
-    return ( 
-          <span className={`test-letter 
-        ${statusClass}`}>
-              {inidividualLetterInfo.testLetter}
-          </span>
-     );
-}
- 
 export default TestLetter;

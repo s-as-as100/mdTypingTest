@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from './nav/nav';
 import './App.css';
+import SAMPLE_PARAGRAPHS from '../../data/sampleParagraph'
 import Landing from './landing/landing';
 import Footer from './footer/footer';
 import ChallengeSection from './challengeSection/challengeSection';

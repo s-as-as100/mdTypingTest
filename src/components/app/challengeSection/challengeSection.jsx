@@ -2,31 +2,35 @@ import React from 'react'
 import TestContainer from '../testContainer/testContainer';
 import './challengeSection.css';
 
-const ChallengeSection = ({selectedParagraph,
+const ChallengeSection = ({
+  selectedParagraph,
+  testInfo,
   onInputChange,
-  testInfo,words,characters,wpm,timeRemaining,timeStarted}) => {
-  
-  console.log(selectedParagraph,wpm,timeRemaining,words,characters)
-  
-    return (  
+  words,
+  characters,
+  wpm,
+  timeRemaining,
+  timerStarted,
+  startAgain,
+}) => {
+  return (
       <div className="challenge-section-container">
-       <h1 data-aos="fade-down" 
-       className="challenge-section-header"
-                 
-       >
-           Take Speed Test Now!
-       </h1>
-       <TestContainer
-       
-       selectedparagraph={selectedParagraph}
-       timeRemaining={timeRemaining}
-       words={words}  characters={characters} wpm={wpm} 
-       onInputChange = {onInputChange}
-       testInfo={testInfo} />
-
+          <h1 data-aos="fade-down" className="challenge-section-header">
+              Take a Speed Test Now!
+          </h1>
+          <TestContainer
+              testInfo={testInfo}
+              selectedParagraph={selectedParagraph}
+              onInputChange={onInputChange}
+              words={words}
+              characters={characters}
+              wpm={wpm}
+              timeRemaining={timeRemaining}
+              timerStarted={timerStarted}
+              startAgain={startAgain}
+          />
       </div>
+  );
+};
 
-    );
-}
- 
 export default ChallengeSection;
