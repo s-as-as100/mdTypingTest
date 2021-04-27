@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/s-as-as100/mdTypingTest/static/css/main.2f754bfe.chunk.css",
+    "main.js": "/s-as-as100/mdTypingTest/static/js/main.36c147a1.chunk.js",
+    "main.js.map": "/s-as-as100/mdTypingTest/static/js/main.36c147a1.chunk.js.map",
+    "runtime-main.js": "/s-as-as100/mdTypingTest/static/js/runtime-main.838383b1.js",
+    "runtime-main.js.map": "/s-as-as100/mdTypingTest/static/js/runtime-main.838383b1.js.map",
+    "static/js/2.7e5a0ccb.chunk.js": "/s-as-as100/mdTypingTest/static/js/2.7e5a0ccb.chunk.js",
+    "static/js/2.7e5a0ccb.chunk.js.map": "/s-as-as100/mdTypingTest/static/js/2.7e5a0ccb.chunk.js.map",
+    "static/js/3.490bd318.chunk.js": "/s-as-as100/mdTypingTest/static/js/3.490bd318.chunk.js",
+    "static/js/3.490bd318.chunk.js.map": "/s-as-as100/mdTypingTest/static/js/3.490bd318.chunk.js.map",
+    "index.html": "/s-as-as100/mdTypingTest/index.html",
+    "static/css/main.2f754bfe.chunk.css.map": "/s-as-as100/mdTypingTest/static/css/main.2f754bfe.chunk.css.map",
+    "static/js/2.7e5a0ccb.chunk.js.LICENSE.txt": "/s-as-as100/mdTypingTest/static/js/2.7e5a0ccb.chunk.js.LICENSE.txt",
+    "static/media/hero.96e141d3.png": "/s-as-as100/mdTypingTest/static/media/hero.96e141d3.png",
+    "static/media/logo.904ac8fd.png": "/s-as-as100/mdTypingTest/static/media/logo.904ac8fd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.838383b1.js",
+    "static/js/2.7e5a0ccb.chunk.js",
+    "static/css/main.2f754bfe.chunk.css",
+    "static/js/main.36c147a1.chunk.js"
+  ]
+}
